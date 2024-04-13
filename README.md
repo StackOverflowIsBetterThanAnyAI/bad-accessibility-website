@@ -11,7 +11,7 @@
 Målet med övningen är att identifiera potentiella tillgänglighetsproblem på denna
 webbplats.
 
-Utgå gärna från WCAG-checklistan, men här kommer några förslag på vad ni kan
+Här kommer några förslag på vad ni kan
 titta efter:
 
 - Hur fungerar webbsidan att navigera med ett tangentbord?
@@ -28,7 +28,7 @@ titta efter:
 The purpose of this exercise is to identify potential accessibility issues on 
 this web page.
 
-Feel free to use the WCAG checklist linked below. Here are some additional suggestions
+Here are some suggestions
 on what to look for:
 
 - Is it possible to navigate the page using only the keyboard?
@@ -42,7 +42,7 @@ on what to look for:
 
 ## Verktyg 🛠️
 
-- WCAG checklista [Länk](https://webbriktlinjer.se/wcag/?checklista)
+- Webbriktlinjer [Länk](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer)
 - Webbläsarens utvecklarverktyg
 - Lighthouse (ska finnas förinstallerat i Chrome)
   [Länk](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
