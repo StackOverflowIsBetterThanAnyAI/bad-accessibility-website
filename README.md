@@ -14,8 +14,8 @@ webbplats.
 
 **Jag vill att ni svarar på följande frågor:**
 
-  1. Fanns det något som fungerade bra?
-  2. Vad fungerade mindre bra?
+  1. Finns det något som fungerar bra?
+  2. Vad fungerar mindre bra?
   3. Hur hade man kunnat göra tillgängligheten bättre?
 
 
@@ -39,8 +39,8 @@ this web page.
 
 **I would like you to answer the following questions:**
 
-  1. What worked well?
-  2. What did not work well?
+  1. What works well?
+  2. What does not work well?
   3. How would you improve the accessibility?
 
 Here are some suggestions
