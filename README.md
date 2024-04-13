@@ -29,7 +29,7 @@ titta efter:
 - Hur ser kontrastvärdena ut mellan bakgrundsfärg och textfärg? (tips: använd
   WCAG Contrast checker)
 
-  **TIPS! Börja med en Lighthouse-audit :)**
+  **TIPS! Börja med en Lighthouse-audit 😉**
 
 ---
 
