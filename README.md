@@ -59,9 +59,9 @@ on what to look for:
 
 - Webbriktlinjer [Länk](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer)
   - Exempel på relevanta riktlinjer inom ramen för denna uppgift
-      1. [Beskriv med text allt innehåll som inte är text] (https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text)
-      2. [All funktionalitet ska kunna användas med tangentbord] (https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/all-funktionalitet-ska-kunna-anvandas-med-tangentbord)
-      3. [Använd tillräcklig kontrast mellan text och bakgrund] (https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/anvand-tillracklig-kontrast-mellan-text-och-bakgrund)
+      1. [Beskriv med text allt innehåll som inte är text](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text)
+      2. [All funktionalitet ska kunna användas med tangentbord](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/all-funktionalitet-ska-kunna-anvandas-med-tangentbord)
+      3. [Använd tillräcklig kontrast mellan text och bakgrund](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/anvand-tillracklig-kontrast-mellan-text-och-bakgrund)
 - Webbläsarens utvecklarverktyg
 - Lighthouse (ska finnas förinstallerat i Chrome)
   [Länk](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
