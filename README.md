@@ -8,7 +8,7 @@
 
 ## Instruktioner 🇸🇪 ✏️
 
-Målet med övningen är att identifiera potentiella tillgänglighetsproblem på denna
+Målet med övningen är att identifiera potentiella tillgänglighetsproblem på [denna](https://bad-accessibility-website.vercel.app/)
 webbplats.
 
 
@@ -59,28 +59,28 @@ on what to look for:
 
 ## Verktyg 🛠️
 
+- Webbläsarens utvecklarverktyg
+  - Lighthouse (ska finnas förinstallerat i Chrome)
+    [Länk](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
+    1. Öppna utvecklarverktyg
+    2. Gå till Lighthouse-tabben
+    3. Tryck på analyze page load
+    4. Kika sedan under Accessibility i resultatet
+  - WCAG Color contrast checker
+    [Länk](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
+    1. Installera tillägget i Chrome
+    2. Starta tillägget så öppnas en sidomeny där det går att se kontrastvärden
+       för elementen på sidan
+  - WAVE Evaluation Tool
+    [Länk](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+    1. Installera tillägget i Chrome
+    2. Starta tillägget så öppnas en sidomeny som flaggar för potentiella problem
+  - Web Disability Simulator 
+    [Länk](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=sv)
+    1.  OBS! Inget ni behöver använda för övningen, men ett bra verktyg för att simulera färgblindhet
 - Webbriktlinjer [Länk](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer)
   - Exempel på relevanta riktlinjer inom ramen för denna uppgift
       1. [Beskriv med text allt innehåll som inte är text](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/beskriv-med-text-allt-innehall-som-inte-ar-text)
       2. [Förmedla information, struktur och relationer i koden](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/formedla-information-struktur-och-relationer-i-koden)
       3. [All funktionalitet ska kunna användas med tangentbord](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/all-funktionalitet-ska-kunna-anvandas-med-tangentbord)
       4. [Använd tillräcklig kontrast mellan text och bakgrund](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/anvand-tillracklig-kontrast-mellan-text-och-bakgrund)
-- Webbläsarens utvecklarverktyg
-- Lighthouse (ska finnas förinstallerat i Chrome)
-  [Länk](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
-  1. Öppna utvecklarverktyg
-  2. Gå till Lighthouse-tabben
-  3. Tryck på analyze page load
-  4. Kika sedan under Accessibility i resultatet
-- WCAG Color contrast checker
-  [Länk](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf)
-  1. Installera tillägget i Chrome
-  2. Starta tillägget så öppnas en sidomeny där det går att se kontrastvärden
-     för elementen på sidan
-- WAVE Evaluation Tool
-  [Länk](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
-  1. Installera tillägget i Chrome
-  2. Starta tillägget så öppnas en sidomeny som flaggar för potentiella problem
-- Web Disability Simulator 
-  [Länk](https://chrome.google.com/webstore/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla?hl=sv)
-  1.  OBS! Inget ni behöver använda för övningen, men ett bra verktyg för att simulera färgblindhet
