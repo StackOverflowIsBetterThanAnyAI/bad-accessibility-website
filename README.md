@@ -84,3 +84,10 @@ on what to look for:
       2. [Förmedla information, struktur och relationer i koden](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/formedla-information-struktur-och-relationer-i-koden)
       3. [All funktionalitet ska kunna användas med tangentbord](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/all-funktionalitet-ska-kunna-anvandas-med-tangentbord)
       4. [Använd tillräcklig kontrast mellan text och bakgrund](https://www.digg.se/webbriktlinjer/alla-webbriktlinjer/anvand-tillracklig-kontrast-mellan-text-och-bakgrund)
+
+---
+
+## Övriga länkar 🌐
+- [Aria Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/)
+- [A11y Cat: digital accessibility resources](https://raindrop.io/a11ycat/a-35893871/)
+
