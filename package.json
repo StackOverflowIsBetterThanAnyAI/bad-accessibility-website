@@ -12,6 +12,6 @@
     "prettier-es5": "^0.0.4",
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
-    "wait-on": "^9.0.10"
+    "wait-on": "^8.0.5"
   }
 }
