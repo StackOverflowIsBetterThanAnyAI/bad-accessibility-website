@@ -3,6 +3,7 @@
 - 1x no language attribute
 - 1x no title attribute
 - 1x user-scalable=no is bad
+- 1x aria-hidden=true on focussable elements is bad
 - 1x aria-hidden=true on body is bad
 - 1x bad heading order
 - 1x heading levels are styled in a bad way

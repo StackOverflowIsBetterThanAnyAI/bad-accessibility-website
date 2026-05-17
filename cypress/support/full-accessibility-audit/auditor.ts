@@ -1,10 +1,11 @@
+import 'cypress-axe'
 import axe from 'axe-core'
 import * as BodyChecks from './auditor-checks-body'
 import * as HeadChecks from './auditor-checks-head'
 import * as HtmlChecks from './auditor-checks-html'
 import { processViolations } from './auditor-helper'
-import { CustomViolationReturnType } from './types'
 import { waitForNetworkIdle } from './wait-for-network-idle'
+import { CustomViolationReturnType } from './types'
 
 export const runAxeAudit = (
     currentPath: string,
