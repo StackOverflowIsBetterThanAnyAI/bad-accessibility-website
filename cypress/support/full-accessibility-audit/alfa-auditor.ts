@@ -28,6 +28,15 @@ export const runAlfaAudit = (
             const rawOutcomes = jsonRepresentation.outcomes || []
             const violationsMap = new Map<string, any>()
 
+            // AAA rules
+            const blacklistedRules = [
+                'sia-r3',
+                'sia-r66',
+                'sia-r83',
+                'sia-r96',
+                'sia-r111',
+            ]
+
             for (const result of rawOutcomes) {
                 const outcomeValue =
                     typeof result.outcome === 'object' &&
@@ -48,6 +57,10 @@ export const runAlfaAudit = (
                         ? ruleUri.split('/').pop() || 'alfa-rule'
                         : 'alfa-rule'
 
+                    if (blacklistedRules.includes(ruleId)) {
+                        continue
+                    }
+
                     const ruleDescription =
                         rule.requirement?.title ||
                         (rule.requirements && rule.requirements[0]?.title) ||
@@ -56,7 +69,7 @@ export const runAlfaAudit = (
                     const ruleRationale =
                         result.rationale ||
                         rule.rationale ||
-                        `element fails rule ${ruleId}.`
+                        `Element failed rule ${ruleId}.`
 
                     let targetHtml = 'Unknown Element'
                     if (result.target) {
@@ -88,6 +101,16 @@ export const runAlfaAudit = (
             }
 
             const violationsForProcess = Array.from(violationsMap.values())
+
+            if (violationsForProcess.length > 0) {
+                const summaryData = violationsForProcess.map((v) => ({
+                    'Rule ID': v.id,
+                    Problem: v.description,
+                    'Failure Count': v.nodes.length,
+                }))
+                console.log(`report for [${currentPath}]`)
+                console.table(summaryData)
+            }
 
             if (violationsForProcess.length) {
                 processViolations(currentPath, violationsForProcess, errorList)
