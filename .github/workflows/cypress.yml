@@ -12,7 +12,7 @@ jobs:
         with:
             node_version: "20"
             app_port: "5173"
-            start_command: "npm run dev -- --port 5173 --host localhost"
+            start_command: "npx vite --host 0.0.0.0 --port 5173"
 
     full-accessibility-audit-axe:
         name: Full Accessibility Audit Axe
@@ -20,7 +20,7 @@ jobs:
         with:
             node_version: "20"
             app_port: "5173"
-            start_command: "npm run dev -- --port 5173 --host localhost"
+            start_command: "npx vite --host 0.0.0.0 --port 5173"
 
     full-accessibility-audit-alfa:
         name: Full Accessibility Audit Alfa
@@ -28,4 +28,4 @@ jobs:
         with:
             node_version: "20"
             app_port: "5173"
-            start_command: "npm run dev -- --port 5173 --host localhost"
+            start_command: "npx vite --host 0.0.0.0 --port 5173"
