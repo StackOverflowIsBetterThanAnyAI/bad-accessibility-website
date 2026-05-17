@@ -1,0 +1,11 @@
+{
+  "config": {
+    "only": [],
+    "included": [],
+    "excluded": []
+  },
+  "urls": [
+    "/"
+  ],
+  "generatedAt": "2026-05-17T15:58:13.794Z"
+}
