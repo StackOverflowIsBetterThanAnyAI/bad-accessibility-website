@@ -1,172 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="/src/style.css" />
-		<meta name="viewport" content="width=device-width, user-scalable=no" />
-	</head>
-	<body aria-hidden="true">
-		<!-- Start Footer -->
-		<div class="footer">
-			<div>
-				<img src="public/images/footer-logo.svg" class="footer-logo" />
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/src/style.css" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+    </head>
+    <body aria-hidden="true">
+        <!-- Start Footer -->
+        <div class="footer">
+            <div>
+                <img src="public/images/footer-logo.svg" class="footer-logo" />
 
-				<div class="footer-links-container" tabindex="10">
-					<div class="footer-links">
-						<div>
-							<img src="public/images/icon-phone.svg" />
-							<span onclick="window.open('tel:+1-543-123-4567')"
-								>Phone: +1-543-123-4567</span
-							>
-						</div>
-						<div>
-							<img src="public/images/icon-email.svg" />
-							<span onclick="window.open('mailto:example@fylo.com')">
-								example@fylo.com
-							</span>
-						</div>
-					</div>
-					<div class="footer-links">
-						<span onclick="window.location.href='about-us.html'">About Us</span>
-						<span onclick="window.location.href='jobs.html'">Jobs</span>
-						<span onclick="window.location.href='press.html'">Press</span>
-						<span onclick="window.location.href='blog.html'">Blog</span>
-					</div>
-					<div class="footer-links">
-						<span onclick="window.location.href='contact-us.html'"
-							>Contact Us</span
-						>
-						<span onclick="window.location.href='terms.html'">Terms</span>
-						<span onclick="window.location.href='privacy.html'">Privacy</span>
-					</div>
-				</div>
+                <div class="footer-links-container" tabindex="10">
+                    <ul class="footer-links" role="button">
+                        <div>
+                            <img src="public/images/icon-phone.svg" />
+                            <span onclick="window.open('tel:+1-543-123-4567')"
+                                >Phone: +1-543-123-4567</span
+                            >
+                        </div>
+                        <div>
+                            <img src="public/images/icon-email.svg" />
+                            <span
+                                onclick="window.open('mailto:example@fylo.com')"
+                            >
+                                example@fylo.com
+                            </span>
+                        </div>
+                    </ul>
+                    <ul class="footer-links" role="button">
+                        <span onclick="window.location.href = 'about-us.html'"
+                            >About Us</span
+                        >
+                        <span onclick="window.location.href = 'jobs.html'"
+                            >Jobs</span
+                        >
+                        <span onclick="window.location.href = 'press.html'"
+                            >Press</span
+                        >
+                        <span onclick="window.location.href = 'blog.html'"
+                            >Blog</span
+                        >
+                    </ul>
+                    <ul class="footer-links" role="button">
+                        <span onclick="window.location.href = 'contact-us.html'"
+                            >Contact Us</span
+                        >
+                        <span onclick="window.location.href = 'terms.html'"
+                            >Terms</span
+                        >
+                        <span onclick="window.location.href = 'privacy.html'"
+                            >Privacy</span
+                        >
+                    </ul>
+                </div>
 
-				<div>
-					Design by
-					<span
-						onclick="window.open('https://www.frontendmentor.io?ref=challenge')"
-						>Frontend Mentor</span
-					>
-				</div>
-			</div>
-		</div>
-		<!-- End Footer -->
+                <div aria-label="Designed by Frontend Mentor">
+                    Design by
+                    <span
+                        onclick="
+                            window.open(
+                                'https://www.frontendmentor.io?ref=challenge',
+                            )
+                        "
+                        >Frontend Mentor</span
+                    >
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
 
-		<!-- Start Early Access Section -->
-		<div class="early-access">
-			<div>
-				<div tabindex="3">
-					<h2 class="heading">Get early access today</h2>
-					<div>
-						It only takes a minute to sign up and our free starter tier is
-						extremely generous. If you have any questions, our support team
-						would be happy to help you.
-					</div>
-				</div>
+        <!-- Start Early Access Section -->
+        <div class="early-access">
+            <div>
+                <div tabindex="3">
+                    <h2 class="heading">Get early access today</h2>
+                    <div>
+                        It only takes a minute to sign up and our free starter
+                        tier is extremely generous. If you have any questions,
+                        our support team would be happy to help you.
+                    </div>
+                </div>
 
-				<div class="early-access-form" tabindex="5">
-					<input type="text" tabindex="-1" />
-					<div
-						class="button"
-						onclick="alert('This button sends the user an email about how to get started')"
-					>
-						Get Started For Free
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Early Access Section -->
+                <div class="early-access-form" tabindex="5">
+                    <input type="text" tabindex="-1" />
+                    <div
+                        aria-label="Get Started For Free"
+                        class="button"
+                        onclick="
+                            alert(
+                                'This button sends the user an email about how to get started',
+                            )
+                        "
+                    >
+                        Get Started For Free
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Early Access Section -->
 
-		<!-- Start Section-->
-		<div>
-			<div class="stay-productive-top-bg"></div>
-			<div class="stay-productive">
-				<div>
-					<img src="public/images/illustration-2.svg" />
+        <!-- Start Section-->
+        <div>
+            <div class="stay-productive-top-bg"></div>
+            <div class="stay-productive">
+                <div>
+                    <img src="public/images/illustration-2.svg" />
 
-					<div class="stay-productive-content">
-						<h1 class="heading">Stay productive, wherever you are</h1>
-						<div>
-							Never let location be an issue when accessing your files. Fylo has
-							you covered for all of your file storage needs.
-						</div>
+                    <div class="stay-productive-content">
+                        <h1 class="heading">
+                            Stay productive, wherever you are
+                        </h1>
+                        <div>
+                            Never let location be an issue when accessing your
+                            files. Fylo has you covered for all of your file
+                            storage needs.
+                        </div>
 
-						<div>
-							Securely share files and folders with friends, family and
-							colleagues for live collaboration. No email attachments required!
-						</div>
+                        <div>
+                            Securely share files and folders with friends,
+                            family and colleagues for live collaboration. No
+                            email attachments required!
+                        </div>
 
-						<div
-							class="link"
-							onclick="alert('This should redirect the user to some kind of demo')"
-						>
-							<div>See how Fylo works</div>
-							<img src="public/images/icon-arrow.svg" />
-						</div>
+                        <div
+                            class="link"
+                            onclick="
+                                alert(
+                                    'This should redirect the user to some kind of demo',
+                                )
+                            "
+                        >
+                            <div>See how Fylo works</div>
+                            <img src="public/images/icon-arrow.svg" />
+                        </div>
 
-						<div class="card" tabindex="5">
-							<img src="public/images/icon-quotes.svg" />
-							<div>
-								Fylo has improved our team productivity by an order of
-								magnitude. Since making the switch our team has become a
-								well-oiled collaboration machine.
-							</div>
-							<div class="avatar">
-								<img src="public/images/avatar-testimonial.jpg" />
-								<div>
-									<div>Kyle Burton</div>
-									<div>Founder & CEO, Huddle</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Section-->
+                        <div class="card" tabindex="5">
+                            <img src="public/images/icon-quotes.svg" />
+                            <div>
+                                Fylo has improved our team productivity by an
+                                order of magnitude. Since making the switch our
+                                team has become a well-oiled collaboration
+                                machine.
+                            </div>
+                            <div class="avatar">
+                                <img
+                                    src="public/images/avatar-testimonial.jpg"
+                                />
+                                <div>
+                                    <div>Kyle Burton</div>
+                                    <div>Founder & CEO, Huddle</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Section-->
 
-		<!-- Start Section -->
-		<div class="get-started">
-			<div>
-				<img src="public/images/illustration-1.svg" />
-				<div class="get-started-content">
-					<h4 class="heading">
-						All your files in one secure location, accessible anywhere.
-					</h4>
+        <!-- Start Section -->
+        <div class="get-started">
+            <div>
+                <img src="public/images/illustration-1.svg" />
+                <div class="get-started-content">
+                    <h4 class="heading">
+                        All your files in one secure location, accessible
+                        anywhere.
+                    </h4>
 
-					<div>
-						Fylo stores your most important files in one secure location. Access
-						them wherever you need, share and collaborate with friends, family,
-						and co-workers.
-					</div>
-					<div class="get-started-form" tabindex="6">
-						<input type="text" tabindex="-1" />
-						<h3 class="button">Get Started</h3>
-					</div>
-				</div>
-			</div>
-		</div>
+                    <div>
+                        Fylo stores your most important files in one secure
+                        location. Access them wherever you need, share and
+                        collaborate with friends, family, and co-workers.
+                    </div>
+                    <div class="get-started-form" tabindex="6">
+                        <input type="text" tabindex="-1" />
+                        <h3 class="button">Get Started</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<!-- End Section -->
+        <!-- End Section -->
 
-		<!-- Start Header -->
-		<div class="header">
-			<div>
-				<img src="public/images/logo.svg" />
-				<div tabindex="0">
-					<span onclick="window.location.href='/features.html'">Features</span>
-					<span onclick="window.location.href='/team.html'">Team</span>
-					<span onclick="window.location.href='/sign-in.html'">Sign In</span>
-				</div>
-			</div>
-		</div>
-		<!-- End Header -->
-	</body>
+        <!-- Start Header -->
+        <div class="header">
+            <div>
+                <img src="public/images/logo.svg" />
+                <div tabindex="0">
+                    <span onclick="window.location.href = '/features.html'"
+                        >Features</span
+                    >
+                    <span onclick="window.location.href = '/team.html'"
+                        >Team</span
+                    >
+                    <span onclick="window.location.href = '/sign-in.html'"
+                        >Sign In</span
+                    >
+                </div>
+            </div>
+        </div>
+        <!-- End Header -->
+    </body>
 </html>
