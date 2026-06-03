@@ -34,7 +34,7 @@
 - 1x section 2 input cannot be activated by keyboard
 - 1x section 2 bad element can be focussed by keyboard
 
-- 1x header image has no alt attribute
+- 6x header image has no alt attribute
 - 1x header bad element can be focussed by keyboard
 - 3x header link cannot be reached by keyboard
 - 3x header link cannot be activated by keyboard
